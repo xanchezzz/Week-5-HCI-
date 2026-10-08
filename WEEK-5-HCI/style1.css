@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Google Sans', 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+.main-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.announcement {
+    display: flex;
+    background-color: #1a1a1a;
+    padding: 10px 10px;
+    border-radius: 20px;
+    gap: 6px;
+    margin: 100px auto;
+    max-width: 415px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 20px;
+    font-size: 18px;
+    max-width: 850px;
+    text-align: justify;
+    text-align-last: center;
+}
+.title {
+    font-size: 69px;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: center;
+    padding: 10px;
+    max-width: 1000px;
+    align-items: center;
+    margin-bottom: 0px;
+
+
+
+
+}
+.btn {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px;
+
+}
